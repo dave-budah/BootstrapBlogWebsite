@@ -151,6 +151,9 @@ body.down .header-default.clone {
     border-right: 8px solid transparent;
     border-bottom: 10px solid #fff;
 }
+.dropdown-menu li {
+    overflow: hidden;
+}
 .dropdown-menu li::after {
     content: "";
     background: #ebebeb;
@@ -1113,8 +1116,28 @@ footer .footer-inner .copyright {
     z-index: 4;
     transition: all .3s ease-in-out;
 }
-
-
+/* Comment */
+.comment-form {
+    width: 100%;
+    border-radius: 5px;
+}
+.comment-form .comment-group {
+    width: 100%;
+    height: 4rem;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid var(--main-blue);
+}
+.comment-form .comment-group textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    resize: none;
+    color: var(--bs-purple);
+    padding: 4px;
+}
 
 @media(min-width: 1200px) {
     .container-xl {
