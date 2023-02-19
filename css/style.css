@@ -1153,7 +1153,10 @@ footer .footer-inner .copyright {
     border: none;
     max-width: 540px;
 }
-#registerModal,
+#registerModal small,
+#loginModal small {
+    cursor: pointer;
+}
 @media(min-width: 1200px) {
     .container-xl {
         max-width: 1140px;
