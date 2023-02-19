@@ -117,6 +117,9 @@ body.down .header-default.clone {
     background-color: var(--secondary-blue);
     background-image: linear-gradient(315deg, var(--secondary-blue) 0%, var(--main-purple) 74%);
 }
+.navbar-nav .login-link {
+    cursor: pointer;
+}
 .nav-brand {
     padding-top: 0;
     padding-bottom: 0;
@@ -1138,7 +1141,19 @@ footer .footer-inner .copyright {
     color: var(--bs-purple);
     padding: 4px;
 }
-
+.comment .author {
+    margin-right: 12px;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.modal-content {
+   border-radius: 1rem;
+    border: none;
+    max-width: 540px;
+}
+#registerModal,
 @media(min-width: 1200px) {
     .container-xl {
         max-width: 1140px;
